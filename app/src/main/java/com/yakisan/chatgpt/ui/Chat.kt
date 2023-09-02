@@ -90,7 +90,7 @@ class Chat : AppCompatActivity() {
                     val params: MutableMap<String, String> = HashMap()
                     params["Content-Type"] = "application/json"
                     params["Authorization"] =
-                        "Bearer sk-Nn4MSf4TFdBSXpOQ84Tfst4JRjt4jltzXUjKj9ZB2cnHVZze"
+                        "Bearer sk-o3Y6xJfHueQxFgAsstrZRG9W7V62Gf5qKrthbLKbbqU1rtC7"
                     return params
                 }
             }
