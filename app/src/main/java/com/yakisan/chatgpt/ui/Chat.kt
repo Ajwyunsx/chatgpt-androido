@@ -25,7 +25,7 @@ import org.json.JSONObject
 
 lateinit var message_adapter: MessageAdapter
 lateinit var messages: ArrayList<Model>
-val url = "https://api.openai.com/v1/completions"
+val url = "https://api.chatanywhere.com.cn/v1/completions"
 
 class Chat : AppCompatActivity() {
     private lateinit var binding: ActivityChatBinding
@@ -90,7 +90,7 @@ class Chat : AppCompatActivity() {
                     val params: MutableMap<String, String> = HashMap()
                     params["Content-Type"] = "application/json"
                     params["Authorization"] =
-                        "Bearer YOUR_TOKEN"
+                        "Bearer sk-Nn4MSf4TFdBSXpOQ84Tfst4JRjt4jltzXUjKj9ZB2cnHVZze"
                     return params
                 }
             }
